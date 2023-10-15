@@ -1,0 +1,21 @@
+.chip {
+  display: flex;
+  padding: 5px 12px;
+
+  color: #0D69F2;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 1000px;
+  border: 1px solid #0D69F2;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.filled {
+  color: #FFFFFF;
+  background: #0D69F2;
+}

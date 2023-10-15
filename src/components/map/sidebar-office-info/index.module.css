@@ -1,0 +1,147 @@
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #221E1F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  margin-bottom: 12px;
+}
+
+.address {
+  color: #626F84;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  border: none;
+  background: none;
+
+  border-radius: 8px;
+  background: #06F;
+
+  padding: 12px 18px;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.workloadInfo {
+  margin-top: 10px;
+}
+
+.workloadInfoTitle {
+  color: #2B313B;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.workloadInfoStatus {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.workloadInfoBar {
+  display: flex;
+  flex: 1;
+  border-radius: 20px;
+  background-color: #E8EAF0;
+  overflow: hidden;
+}
+
+.workloadInfoBarProgress {
+  border-radius: 20px;
+  background-color: var(--index-color);
+}
+
+.workloadInfoIndex {
+  padding: 3px 15px;
+  background-color: var(--index-bg);
+  color: var(--index-color);
+  border-radius: 70px;
+}
+
+.workloadInfoStatus_green {
+  --index-bg: #BDFFA5;
+  --index-color: #1FB525;
+}
+
+.workloadInfoStatus_yellow {
+  --index-bg: #FFF5D7;
+  --index-color: #DCA300;
+}
+.workloadInfoStatus_red {
+  --index-bg: #FFE1DE;
+  --index-color: #E62632;
+}
+
+
+.workloadInfoDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailRowTitle {
+  color: #2B313B;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detailRowValue {
+  color: #0D69F2;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modalDevice {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.modalLink {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.modalQR {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

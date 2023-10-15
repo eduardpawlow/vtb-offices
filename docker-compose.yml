@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  web:
+    command: npm run start
+    restart: unless-stopped
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      HOST: 0.0.0.0
