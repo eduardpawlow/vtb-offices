@@ -119,14 +119,14 @@ export const SidebarOfficeInfo: React.FC<Props> = ({ office, userPoint }) => {
               ></div>
             </div>
             <div className={styles.workloadInfoIndex}>
-              {office.workload_koef}
+              {round(office.workload_koef)}
             </div>
           </div>
 
           <div className={styles.workloadInfoDetail}>
             <div className={styles.detailRow}>
               <div className={styles.detailRowTitle}>Рейтинг отделения:</div>
-              <div className={styles.detailRowValue}>{office.rate}</div>
+              <div className={styles.detailRowValue}>{round(office.rate)}</div>
             </div>
 
             <div className={styles.detailRow}>
